@@ -1,8 +1,71 @@
 body {
   text-align: center;
-  background-color: #DDD;
 }
 
 #linkedIn {
   display: block;
 }
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+#center {
+  margin:auto;
+  width: 100%;
+  max-width:900px;
+  height:100%;
+}
+
+#nav {
+  width: 180px;
+  height: 100%;
+}
+
+#words {
+  width: 70%;
+  min-height: 600px;
+  border-left: 1px solid #323232;
+}
+
+h1 {
+  padding: 30px;
+}
+
+p {
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #505050;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+.inbl {display: inline-block;}
+.fl {float: left;}
+
+/* Spritegrid information */   
+#spritegrid {
+  margin: auto;
+  margin-top:25px;
+  position:relative;
+  width:160px;
+  height:48px;
+  border: none;
+}
+
+.tile {
+  z-index:10;
+  display:inline-block;
+  float: left;
+  width: 16px;
+  height:16px;}
+
+.tile_0 {background:url(sprites/drawing.svg) -0px -0px no-repeat;}
+.tile_1 {background:url(sprites/drawing.svg) -16px -0px no-repeat;}
+.tile_2 {background:url(sprites/drawing.svg) -32px -0px no-repeat;}
+.tile_3 {background:url(sprites/drawing.svg) -48px -0px no-repeat;}
+.tile_4 {background:url(sprites/drawing.svg) -64px -0px no-repeat;}
