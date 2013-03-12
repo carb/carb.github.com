@@ -1,7 +1,3 @@
-body {
-  text-align: center;
-}
-
 #linkedIn {
   display: block;
 }
@@ -19,7 +15,7 @@ body {
 }
 
 #nav {
-  width: 180px;
+  width: 200px;
   height: 100%;
 }
 
